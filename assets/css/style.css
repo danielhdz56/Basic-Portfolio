@@ -85,7 +85,7 @@ header {
 	margin-left: 27px;
 }
 
-#nav-bar a, aside a {
+#nav-bar a, aside a, #portfolio-section a {
 /* 	
 	Incase there are future links that I will want the default text-decoration
 	I use this instead of just "a"
@@ -149,7 +149,7 @@ section {
 	margin-right: 25px;	
 }
 
-.section-content {
+.section-container {
 	margin: 32px 0 25px 0;
 }
 
@@ -181,10 +181,48 @@ section input {
 	font-size: 16px;
 }
 
-
-
 /* ^^^contact.html style specific^^^ */
 
+
+/* portfolio.html style specific */
+
+ #portfolio-section img {
+ 	position: relative;
+ 	top: -100px;
+ 	z-index: 1;
+ 	width: 275px;
+ 	height: 205px;
+ 	
+ 	
+ }
+
+ #portfolio-section {
+ 	overflow: hidden;
+ }
+
+.right-divs {
+	position: relative;
+	left: 34px;
+}
+
+#portfolio-section div {
+	float: left;
+	height: 205px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#portfolio-section p {
+	position: relative;
+	top: 100px;
+	z-index: 4;
+	padding: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+
+/* ^^^portfolio.html style specific^^^ */
 
 footer {
 	clear: both;
