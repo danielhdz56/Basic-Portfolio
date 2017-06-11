@@ -98,6 +98,10 @@ header {
 	color: #666666;
 }
 
+#nav-bar a {
+	color: #666666;
+}
+
 
 
 
@@ -133,7 +137,6 @@ aside .headings {
 }
 
 
-
 section {
 	width: 650px;
 	padding: 6px 32px;
@@ -143,14 +146,42 @@ section {
 
 #image-aboutme {
 	float: left;
-	margin: 32px 25px 25px 0;
+	margin-right: 25px;	
+}
+
+.section-content {
+	margin: 32px 0 25px 0;
 }
 
 section p {
-	margin: 24px 25px 25px 0;
+	margin: 24px 0 25px 0;
 	line-height: 2;
 }
 
+/* contact.html style specific */
+section input {
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	font-size: 13px;
+}
+
+#input-message {
+	height: 172px;
+}
+
+#submit-button {
+	width: 91px;
+	height: 34px;
+	border: none;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+
+/* ^^^contact.html style specific^^^ */
 
 
 footer {
