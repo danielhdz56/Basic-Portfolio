@@ -167,7 +167,9 @@ section input {
 }
 
 #input-message {
+	width: 100%;
 	height: 172px;
+	resize: vertical;
 }
 
 #submit-button {
