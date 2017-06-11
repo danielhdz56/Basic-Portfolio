@@ -17,7 +17,14 @@ body {
 	/* I added this out of my own volition. I LIKE IT. I need sleep.*/
 }
 
+
+
 .container {
+	/* 
+		In order to center the container we must specify a width. 
+		This allows the container to automcatically adjust based on the size of the browser.
+		If you don't specify a width the container will take up a width of a 100%, and you won't see any change.
+	*/
 	width: 960px;
 	margin: 0 auto;
 }
