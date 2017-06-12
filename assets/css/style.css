@@ -65,7 +65,7 @@ header {
 }
 
 
-
+ 
 
 #nav-bar {
 	float: right;
@@ -87,9 +87,7 @@ header {
 	In this instance it makes sure that there is a margin-left only on the Portfolio and the Contact links
 	BECAUSE they are preceded by a link, About and Portfolio respectively
 */
-	padding-left: 27px;
 	border-left: 1px solid #cccccc;
-	margin-left: 27px;
 }
 
 #nav-bar a, aside a, #portfolio-section a {
@@ -101,13 +99,21 @@ header {
 	/* This also has an effect on the image links in the aside element. */
 }
 
+#nav-bar a {
+	color: #666666;
+	padding: 5px 10px;
+}
+
 #nav-bar a:visited {
 	color: #666666;
 }
 
-#nav-bar a {
-	color: #666666;
+#nav-bar a:hover {
+	background-color: #377F7C;
+	color: whitesmoke;
 }
+
+
 
 
 
@@ -151,22 +157,26 @@ section {
 	background-color: #ffffff;
 }
 
+.section-content {
+	margin: 32px 0 25px 0;
+}
+
 #image-aboutme {
 	float: left;
 	margin-right: 25px;	
 }
 
-.section-container {
-	margin: 32px 0 25px 0;
-}
+
 
 section p {
 	margin: 24px 0 25px 0;
 	line-height: 2;
 }
 
+
+
 /* contact.html style specific */
-section input {
+section input, section textarea {
 	width: 100%;
 	padding: 7px;
 	margin: 6px 0;
@@ -231,6 +241,8 @@ section input {
 
 /* ^^^portfolio.html style specific^^^ */
 
+
+
 footer {
 	clear: both;
 	width: 100%;
@@ -238,6 +250,12 @@ footer {
 	background-color: #666666;
 	color: #ffffff;
 	text-align: center;
+	/* 
+	This is the code for the sticky footer (I just didn't want it)
+	position: fixed;
+	bottom: 0;
+	*/
+	
 }
 
 
@@ -246,3 +264,6 @@ footer p {
 	padding: 35px 0 35px 0;
 	margin: 0;
 }
+
+
+
