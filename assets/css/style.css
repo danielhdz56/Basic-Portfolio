@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-}
+} 
 
 body {
 	background-image: url("../images/clouds.png");
@@ -155,6 +155,7 @@ section {
 	padding: 6px 32px;
 	border: 1px solid #dddddd;	
 	background-color: #ffffff;
+	min-height: 500px;
 }
 
 .section-content {
